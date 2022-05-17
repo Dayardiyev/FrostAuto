@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../svg/favicon (1).svg" type="image/svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <title>FrostAuto - Профиль</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-logo">
+                    <a href="../index.html"></a>
+                    <img src="../svg/Frost logo.svg" alt="FrostLogo">
+                </div>
+                <div class="header-item header-item-city">
+                    <p>г. Нур-Султан</p>
+                    <p>г. Алматы</p>
+                </div>
+                <div class="header-item header-item-num">
+                    <p>+7 777 777 77 77</p>
+                    <p>+7 777 777 77 77</p>
+                </div>
+
+                <div class="header-item header-search">
+                    <input type="search" placeholder="Поиск по каталогу ...">
+                    <img src="../img/Group 9.png" alt="">
+                </div>
+                <div class="header-item header-auth">
+                    <p><a href="#modal-login"> Вход в личный кабинет</a></p>
+                    <p><a href="#modal-signup">Зарегистрироваться</a></p>
+                </div>
+                <div class="header-item header-cart">
+                    <form action="cart1.html">
+                        <a href="cart1.html"></a>
+                        <img src="../svg/Group 2.svg" alt="">
+                        <div class="header-count">2</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header -->
+
+    <div class="page">
+        <div class="container">
+            <div class="profile-box">
+                <div class="profile-title">Личный кабинет</div>
+                <div class="profile-left">
+                    <div class="profile-left-item">
+                        <img src="../svg/Cube.svg" alt="" width="30px" height="30px">
+                        <a href="profile1.html">Мои заказы</a>
+                    </div>
+                    <div class="profile-left-item">
+                        <img src="../svg/Profile.svg" alt="" width="30px" height="30px">
+                        <a href="profile2.html">Контактные данные</a>
+                    </div>
+                    <div class="profile-left-item">
+                        <img src="../svg/Pointer.svg" alt="" width="30px" height="30px">
+                        <a href="profile3.html">Доставка</a>
+                    </div>
+                </div>
+                <div class="profile-right profile-right2">
+                    <div class="profile-right-title profile-right-title2">Контактные данные</div>
+                    <div class="profile-right-input">
+                        <p>Фамилия</p>
+                        <input type="text">
+                    </div>
+                    <div class="profile-right-input">
+                        <p>E-mail</p>
+                        <input type="email">
+                    </div>
+                    <div class="profile-right-input">
+                        <p>Имя</p>
+                        <input type="text">
+                    </div>
+                    <div class="profile-right-input">
+                        <p>Телефон</p>
+                        <input type="tel">
+                    </div>
+                    <div class="profile-right-input">
+                        <p>Отчество</p>
+                        <input type="text">
+                    </div>
+                    <div class="profile-right-password">
+                        <a href="profile-change-password.html">Изменить пароль</a>
+                    </div>
+                </div>
+            </div>
+            <div class="button">
+                <button>Сохранить изменения</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container">
+            <div class="footer-box">
+                <div class="footer-item">
+                    <img src="../svg/Insta.svg" alt="">
+                    <div class="footer-content">
+                        frostauto
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <img src="../svg/Mail.svg" alt="">
+                    <div class="footer-content">
+                        frostauto@gmail.com
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <img src="../svg/Phone.svg" alt="">
+                    <div class="footer-content">
+                        <span>г. Нур-Султан</span><br>
+                        +7 777 777 77 77
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <img src="../svg/Phone.svg" alt="">
+                    <div class="footer-content">
+                        <span>г. Алматы</span><br>
+                        +7 777 777 77 77
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal--------------------------------- -->
+
+    <!-- Modal Login--------------------------- -->
+
+    <div id="modal-login" class="modal">
+        <a href="#" class="modal-area"></a>
+        <div class="modal-window">
+            <div class="block">
+                <div class="container-block">
+                    <div class="block-info">
+                        <h1>Вход в учётную запись</h1>
+                        <input type="email" placeholder="Адрес электронной почты">
+                        <input type="password" placeholder="Пароль">
+                        <div class="forgot">
+                            <a href="#modal-forgot-password">Забыли пароль?</a>
+                        </div>
+
+                    </div>
+
+                    <div class="block-submit">
+                        <form action="profile1.html">
+                            <button>Войти</button>
+                        </form>
+                        <a href="#modal-signup">Создать новую учётную запись</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal SignUp ------------------------- -->
+
+    <div id="modal-signup" class="modal">
+        <a href="#" class="modal-area"></a>
+        <div class="modal-window">
+            <div class="block">
+                <div class="container-block">
+                    <div class="block-info">
+                        <h1>Создание учётной записи</h1>
+                        <input type="text" placeholder="Имя" class="name">
+                        <input type="text" placeholder="Фамилия" class="lastname">
+                        <input type="email" placeholder="Адрес электронной почты">
+                        <input type="password" placeholder="Пароль">
+                        <input type="password" placeholder="Повторите пароль">
+                    </div>
+
+                    <div class="block-submit">
+                        <button class="reg">Зарегистрироваться</button>
+                        <a href="#modal-login">Войти в существующую учётную запись</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal Forgot Password ------------------>
+
+    <div id="modal-forgot-password" class="modal">
+        <a href="#" class="modal-area"></a>
+        <div class="modal-window">
+            <div class="block block-forgot-password">
+                <div class="container-block">
+                    <div class="block-info">
+                        <h1>Восстановление пароля</h1>
+                        <p>Для получения нового пароля необходимо вписать в поле ниже адрес электронной почты, указанный
+                            при регистрации</p>
+
+                        <input type="email" placeholder="Адрес электронной почты">
+                    </div>
+
+                    <div class="block-submit">
+                        <button class="send">Отправить подтверждение</button>
+                        <a href="#modal-signup">Создать новую учётную запись</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
